@@ -1,1 +1,8 @@
-# dBCheck
+# dBCheck - Personalised Ear Health Monitor
+Hearing loss in our modern times is a common issue, not only among teenage people but young adults as well. Prolonged listening with headphones will be the principal cause of such an issue. Today, more and more persons are unaware about their listening behaviors and how such habits can reflect on their extended use of ear gadgets and create future health issues. Therefore we, introduce "dBCheck - Personalised Ear Health Monitor" an AI / ML-based app that tracks headsets usage predicts ear health hazard and gives each user customized alerts for safe experience.
+
+dBCheck deals with the collection and processing of real-time data. Three key components include the regression model for predicting an individual's risk score for hearing loss, a classification system which puts users in a low-risk, medium-risk, or high-risk category, and an adaptive recommendation engine with customized tips to prevent ear health using LSTM's.
+
+This solution will be implemented using a combination of technologies. The predictive model will utilize machine learning algorithms such as XGBoost and Neural Networks. Apache Kafka will be used for real-time data processing. Relational database PostgreSQL will be used for maintaining the storage of data. The cross-platform framework Flutter will be used to develop the user interface to accommodate all devices. Python based Django will be used as the Backend to maintain all these dependencies.
+
+It will integrate these technologies to empower the users with actionable insights into their listening habits, and help them achieve their ear care goals.
